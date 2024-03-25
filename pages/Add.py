@@ -1,5 +1,6 @@
 import streamlit as st
-from app import plot_graph, set_date_column, set_analysis_field, create_dataFrame
+from app import plot_graph, set_date_column, set_analysis_field
+from data import create_dataFrame
 
 # Cache the create_dataFrame function
 @st.cache_data
